@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# This hook is called with the snake-cased name of the theme that has just been set.
+# To put it into use, remove .sample from the name.
+
+# El nombre del tema se encuentra en $1
+THEME_NAME="$1"
+
+# [Opcional, si quieres la notificación]
+# notify-send "New theme" "Your new theme is $THEME_NAME"
+
+# --- LLAMADA AL SCRIPT DE SINCRONIZACIÓN DE VENCORD ---
+# Asegúrate de que el script exista en esta ruta:
+~/.config/hypr/scripts/vencord-sync.sh "$THEME_NAME"

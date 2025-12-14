@@ -1,0 +1,104 @@
+@import "../omarchy/current/theme/waybar.css";
+
+* {
+  background-color: @background;
+  color: @foreground;
+
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: 'JetBrainsMono Nerd Font';
+  font-size: 12px;
+}
+
+.modules-left {
+  margin-left: 8px;
+}
+
+.modules-right {
+  margin-right: 8px;
+}
+
+#workspaces button {
+  all: initial;
+  padding: 0 6px;
+  margin: 0 1.5px;
+  min-width: 9px;
+}
+
+#workspaces button.empty {
+  opacity: 0.5;
+}
+
+#bluetooth,
+#network,
+#pulseaudio,
+#cpu,
+#custom-brightness,
+#battery,
+#custom-screenrecording-indicator,
+#custom-update {
+  min-width: 12px;
+  margin-right: 7.5px;
+  margin-left: 7.5px;
+}
+
+#custom-window-title {
+  min-width: 12px;
+  margin-right: 7.5px;
+  margin-left: 25px;
+}
+
+#custom-omarchy {
+  min-width: 12px;
+  margin-right: 7.5px;
+  margin-left: 1px;
+}
+
+/* Explicitly target spotify text to have fixed width to prevent jitter */
+#custom-spotify-text {
+  min-width: 50px;
+
+  /* Make it wide enough to not jitter */
+  margin: 0 8px;
+}
+
+#custom-spotify-text.hidden {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#tray {
+  margin-right: 16px;
+}
+
+#custom-expand-icon {
+  margin-right: 18px;
+}
+
+#tooltip {
+  padding: 2px;
+}
+
+#custom-update {
+  font-size: 10px;
+}
+
+#clock {
+  margin-left: 8.75px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#custom-screenrecording-indicator {
+  min-width: 12px;
+  margin-left: 8.75px;
+  font-size: 10px;
+}
+
+#custom-screenrecording-indicator.active {
+  color: #a55555;
+}
