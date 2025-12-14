@@ -3,11 +3,7 @@
 Welcome to my personal configuration repository! This collection features my custom setups for Hyprland, Waybar, and other essential tools.
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Hyprland](https://img.shields.io/badge/Hyprland-2d3436?style=for-the-badge&logo=archlinux&logoColor=white)
-![Waybar](https://img.shields.io/badge/Waybar-2d3436?style=for-the-badge&logo=archlinux&logoColor=white)
-![Vesktop](https://img.shields.io/badge/Vesktop-2d3436?style=for-the-badge&logo=archlinux&logoColor=white)
-![Omarchy](https://img.shields.io/badge/Omarchy-2d3436?style=for-the-badge&logo=archlinux&logoColor=white)
-![Walker](https://img.shields.io/badge/Walker-2d3436?style=for-the-badge&logo=archlinux&logoColor=white)
+![Omarchy](https://img.shields.io/badge/Omarchy-2d3436?style=for-the-badge&logo=archlinux&logoColor=%231793D1)
 
 ## 📂 Structure
 
@@ -22,8 +18,8 @@ The repository mirrors the standard `~/.config` structure:
 │   ├── waybar/        # Waybar status bar
 │   └── vesktop/       # Vesktop (Discord) themes & settings
 ├── scripts/
-│   ├── collect.sh     # BACKUP: Sincroniza desde tu sistema al repo
-│   └── install.sh     # RESTORE: Crea enlaces simbólicos en tu sistema
+│   ├── collect.sh     # BACKUP: Sync from your system to the repository
+│   └── install.sh     # RESTORE: Creates symbolic links in your system
 └── README.md
 ```
 
